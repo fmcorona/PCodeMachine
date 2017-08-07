@@ -1,0 +1,20 @@
+ent main
+lda var
+ldc 1
+stn
+lod var
+ldc 0
+equ
+fjp L1
+lda var
+ldc 1
+stn
+ujp L2
+lab L1
+lda var
+ldc 0
+stn
+lab L2
+ldc 0
+ret
+stp

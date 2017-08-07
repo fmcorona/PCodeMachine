@@ -1,0 +1,15 @@
+ent main
+lda var1
+ldc 1
+stn
+lda var2
+ldc 2
+stn
+lda var1
+lod var1
+lod var2
+mod
+stn
+ldc 0
+ret
+stp
